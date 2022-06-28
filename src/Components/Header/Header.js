@@ -14,6 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 
 const Header = () => {
+  const classes = Styles();
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
